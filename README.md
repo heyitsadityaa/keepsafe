@@ -3,7 +3,6 @@
 1. [Introduction](#introduction)
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
-4. [Quick Start](#quick-start)
 
 ## <a name="introduction">Introduction</a>
 
@@ -32,60 +31,3 @@ A healthcare platform that streamlines patient registration, authentication and 
 **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
 
 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
-
-## <a name="quick-start">Quick Start</a>
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone
-cd KeepSafe-main
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
-
-```env
-#APPWRITE
-NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
-PROJECT_ID=
-API_KEY=
-DATABASE_ID=
-PATIENT_COLLECTION_ID=
-APPOINTMENT_COLLECTION_ID=
-NEXT_PUBLIC_BUCKET_ID=
-NEXT_PUBLIC_ADMIN_PASSKEY=
-```
-
-Replace the placeholder values with your actual Appwrite credentials.
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-OR
-
-```bash
-npm start
-```
