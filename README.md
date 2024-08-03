@@ -1,6 +1,6 @@
-##[Checkout the project](https://keepsafe-healthcare-adityas-projects-b1f0cfa2.vercel.app/)
+## [Checkout the project](https://keepsafe-healthcare-adityas-projects-b1f0cfa2.vercel.app/)
 
-## 📋 <a name="table">Table of Contents</a>
+## <a name="table">Table of Contents</a>
 
 1. [Introduction](#introduction)
 2. [Tech Stack](#tech-stack)
